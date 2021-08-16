@@ -1,8 +1,8 @@
 import styled from "styled-components";
 import { useAuthState } from "react-firebase-hooks/auth";
 import Head from "next/head";
-import ChatScreen from "../../components/ChatScreen";
-import Sidebar from "../../components/Sidebar";
+import ChatScreen from "../../Components/ChatScreen";
+import Sidebar from "../../Components/Sidebar";
 import { auth,db } from "../../firebase";
 import getRecipientEmail from "../../utils/getRecipientEmail";
 
